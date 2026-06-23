@@ -23,6 +23,11 @@ export default function ContactForm() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  // Replace this with your real Formspree endpoint after signing up at formspree.io
+  // Example: https://formspree.io/f/xxxxxx
+  const FORMSPREE_ENDPOINT = "https://formspree.io/f/YOUR_FORM_ID_HERE";
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
@@ -34,25 +39,36 @@ export default function ContactForm() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setError(null);
 
-    // TODO: Replace this mock with real form handling before full launch
-    // Recommended options (easy first):
-    // 1. Formspree or Web3Forms (zero backend, just add key)
-    // 2. Resend + simple API route (I can implement this)
-    // 3. EmailJS client-side
-    // Paste the output or ask me to wire it up once live.
+    try {
+      const response = await fetch(FORMSPREE_ENDPOINT, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+        },
+        body: JSON.stringify({
+          ...formData,
+          _subject: "New Tutoring Enquiry from Website",
+        }),
+      });
 
-    // Simulate network request
-    await new Promise((resolve) => setTimeout(resolve, 650));
-
-    setIsSubmitting(false);
-    setSubmitted(true);
-
-    // Reset form after success (optional)
-    setTimeout(() => {
-      setFormData({ name: "", email: "", childYear: "", message: "" });
-      setSubmitted(false);
-    }, 4200);
+      if (response.ok) {
+        setSubmitted(true);
+        // Reset form after success
+        setTimeout(() => {
+          setFormData({ name: "", email: "", childYear: "", message: "" });
+          setSubmitted(false);
+        }, 4200);
+      } else {
+        throw new Error("Failed to send. Please try again or email directly.");
+      }
+    } catch (err) {
+      setError("Something went wrong. Please try emailing Chloe directly.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (submitted) {
@@ -132,6 +148,10 @@ export default function ContactForm() {
           placeholder="E.g. My Year 2 son needs help with reading fluency and building confidence with maths. We are available Tuesday and Thursday afternoons."
         />
       </div>
+
+      {error && (
+        <p className="text-red-600 text-sm -mt-2">{error}</p>
+      )}
 
       <div className="pt-2">
         <Button type="submit" variant="primary" className="w-full md:w-auto px-10" disabled={isSubmitting}>
