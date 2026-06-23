@@ -16,7 +16,7 @@ export default function Footer() {
           </div>
           <p className="text-sm leading-relaxed text-white/70 max-w-[19rem]">
             Qualified primary teacher providing personalised, nurturing tutoring 
-            in Mudgeeraba and the Gold Coast hinterland.
+            on the Gold Coast and surrounds.
           </p>
         </div>
 
@@ -48,14 +48,14 @@ export default function Footer() {
             </div>
             <div>
               <div className="font-medium text-white">Location</div>
-              Mudgeeraba, Gold Coast Hinterland, Queensland
+              Gold Coast and Surrounds, Queensland
             </div>
           </div>
         </div>
       </div>
 
       <div className="mt-14 pt-6 border-t border-white/20 text-center text-xs text-white/60 max-w-6xl mx-auto px-6">
-        © {currentYear} Chloe&apos;s Tutoring. All rights reserved. • Mudgeeraba, SEQ Queensland
+        © {currentYear} Chloe&apos;s Tutoring. All rights reserved. • Gold Coast, Queensland
       </div>
     </footer>
   );

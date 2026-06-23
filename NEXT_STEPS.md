@@ -98,7 +98,7 @@ The site has excellent foundations:
 5. Add structured data (JSON-LD) for LocalBusiness + Person + Service. A starter script can be added to layout if wanted.
 6. Ensure fast Core Web Vitals (the site is already very lean).
 
-**Current keywords** target: "primary tutoring Mudgeeraba", "Gold Coast tutor Prep Year 6", "NAPLAN Mudgeeraba", "personalised tutor Queensland hinterland", etc. Good start.
+**Current keywords** target: "primary tutoring Gold Coast", "Gold Coast tutor Prep Year 6", "NAPLAN Gold Coast", "personalised tutor Queensland", etc. Good start.
 
 ---
 

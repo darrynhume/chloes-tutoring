@@ -41,11 +41,11 @@ export default function ChloeTutoring() {
         <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
           <div className="max-w-3xl mx-auto">
             <div className="inline-flex items-center rounded-full bg-white/15 px-4 py-1 text-xs tracking-[1.5px] mb-5 font-medium border border-white/30">
-              MUDGEERABA • GOLD COAST HINTERLAND
+              GOLD COAST AND SURROUNDS
             </div>
 
             <h1 className="text-white text-balance tracking-[-1.6px] leading-none mb-5">
-              Personalised Primary Tutoring<br className="hidden md:block" /> in Mudgeeraba
+              Personalised Primary Tutoring<br className="hidden md:block" /> on the Gold Coast
             </h1>
 
             <p className="text-[1.1rem] md:text-[1.25rem] text-white/90 max-w-2xl mx-auto leading-relaxed mb-9">
@@ -83,8 +83,8 @@ export default function ChloeTutoring() {
 
             <div className="prose prose-lg text-text-dark max-w-2xl">
               <p className="text-[17px] leading-relaxed text-balance">
-                Hi, I&apos;m Chloe — a fully qualified primary school teacher based in Mudgeeraba 
-                in the beautiful Gold Coast hinterland. I have classroom experience across Prep to Year 6 
+                Hi, I&apos;m Chloe — a fully qualified primary school teacher with 4+ years of primary education experience in Queensland. 
+                I hold a current blue card and am based on the Gold Coast and surrounds. I have classroom experience across Prep to Year 6 
                 and a genuine passion for helping local children thrive.
               </p>
               <p className="mt-4 text-[17px] leading-relaxed text-balance text-text-muted">
@@ -92,11 +92,15 @@ export default function ChloeTutoring() {
                 My approach is warm, patient, and personalised — meeting each student exactly where they are 
                 and helping them grow in both skills and confidence.
               </p>
+              <p className="mt-4 text-[17px] leading-relaxed text-balance">
+                As a mother to a young boy myself, I truly understand how crucial getting the right support is for our little learners. 
+                I&apos;m committed to creating a nurturing environment where every child feels seen, supported, and excited to learn.
+              </p>
             </div>
 
             <div className="mt-7 flex items-center gap-3">
               <div className="h-px flex-1 bg-warm-sand" />
-              <span className="text-xs uppercase tracking-widest text-sage font-medium">Gold Coast Hinterland</span>
+              <span className="text-xs uppercase tracking-widest text-sage font-medium">Gold Coast and Surrounds</span>
             </div>
           </div>
 
@@ -114,9 +118,9 @@ export default function ChloeTutoring() {
               <div className="text-sage-dark font-semibold mb-3.5">My teaching foundation</div>
               <ul className="space-y-2.5 text-[14.5px]">
                 <li className="flex gap-3"><CheckCircle className="mt-0.5 text-sage flex-shrink-0" size={18} /> Fully qualified primary school teacher</li>
-                <li className="flex gap-3"><CheckCircle className="mt-0.5 text-sage flex-shrink-0" size={18} /> Extensive classroom experience (Prep–Year 6)</li>
+                <li className="flex gap-3"><CheckCircle className="mt-0.5 text-sage flex-shrink-0" size={18} /> 4+ years of primary education experience in Queensland</li>
+                <li className="flex gap-3"><CheckCircle className="mt-0.5 text-sage flex-shrink-0" size={18} /> Current blue card (valid in Queensland)</li>
                 <li className="flex gap-3"><CheckCircle className="mt-0.5 text-sage flex-shrink-0" size={18} /> Deep knowledge of the Queensland Curriculum</li>
-                <li className="flex gap-3"><CheckCircle className="mt-0.5 text-sage flex-shrink-0" size={18} /> Local to Mudgeeraba — I understand our community</li>
               </ul>
             </div>
           </div>
@@ -190,8 +194,8 @@ export default function ChloeTutoring() {
           />
           <WhyCard
             icon={MapPin}
-            title="Local to Mudgeeraba"
-            description="I live and work right here in the Gold Coast hinterland. I know the local schools, the community, and the specific needs of families in Mudgeeraba, Worongary, Tallai and surrounding areas."
+            title="Local to the Gold Coast"
+            description="I live and work right here on the Gold Coast and surrounds. I know the local schools, the community, and the specific needs of families across the region."
           />
           <WhyCard
             icon={Heart}
@@ -201,7 +205,7 @@ export default function ChloeTutoring() {
           <WhyCard
             icon={Video}
             title="Flexible In-Person + Online"
-            description="Choose what works for your family: in-person at my Mudgeeraba location, at your home (within the local area), or via high-quality online sessions. Many families mix both."
+            description="Choose what works for your family: in-person on the Gold Coast and surrounds, at your home (within the local area), or via high-quality online sessions. Many families mix both."
           />
           <WhyCard
             icon={CheckCircle}
@@ -223,19 +227,19 @@ export default function ChloeTutoring() {
             <TestimonialCard
               quote="Chloe has been incredible with our daughter. After just a few weeks her reading confidence improved dramatically and she now asks to do extra work at home. We are so grateful."
               name="Sarah M."
-              detail="Parent of Year 3 student, Worongary"
+              detail="Parent of Year 3 student, Gold Coast"
               initials="SM"
             />
             <TestimonialCard
               quote="Our son struggled with maths anxiety. Chloe’s patient and visual approach completely changed how he feels about the subject. His NAPLAN results were above his target and, more importantly, he’s proud of himself."
               name="Michael & Priya K."
-              detail="Parents of Year 5 student, Mudgeeraba"
+              detail="Parents of Year 5 student, Gold Coast"
               initials="MK"
             />
             <TestimonialCard
               quote="The small group sessions were perfect for our twins. They love going and have made lovely progress in both literacy and numeracy. Chloe really understands how to keep them engaged and challenged."
               name="Lisa T."
-              detail="Parent of Year 1 & Year 2 students, Tallai"
+              detail="Parent of Year 1 & Year 2 students, Gold Coast"
               initials="LT"
             />
           </div>
@@ -251,13 +255,13 @@ export default function ChloeTutoring() {
         <div className="grid lg:grid-cols-5 gap-x-12 items-start">
           <div className="lg:col-span-3">
             <div className="uppercase text-xs tracking-[2px] text-sage font-semibold mb-3">LOCATION & AVAILABILITY</div>
-            <h2 className="mb-6">Based in Mudgeeraba, serving the Gold Coast hinterland.</h2>
+            <h2 className="mb-6">Based on the Gold Coast and surrounds.</h2>
 
             <div className="space-y-6 text-[15.2px] leading-relaxed text-text-dark">
               <p>
-                I offer tutoring from my calm, well-equipped home studio in Mudgeeraba. 
-                In-person sessions are also available at your home for families in Mudgeeraba, 
-                Worongary, Tallai, Springbrook, and nearby suburbs (small travel fee may apply).
+                I offer tutoring from my calm, well-equipped home studio on the Gold Coast. 
+                In-person sessions are also available at your home for families in the Gold Coast and surrounds 
+                (small travel fee may apply).
               </p>
               <p>
                 Online sessions via Zoom or Google Meet are available for families anywhere 
@@ -270,7 +274,7 @@ export default function ChloeTutoring() {
                 <div className="flex items-center gap-2 font-semibold text-sage-dark mb-2">
                   <MapPin size={18} /> In-person
                 </div>
-                <div className="text-sm text-text-muted">Mudgeeraba &amp; surrounding hinterland suburbs</div>
+                <div className="text-sm text-text-muted">Gold Coast and surrounding suburbs</div>
               </div>
               <div className="rounded-xl border border-warm-sand p-5 bg-warm-ivory">
                 <div className="flex items-center gap-2 font-semibold text-sage-dark mb-2">
@@ -337,7 +341,7 @@ export default function ChloeTutoring() {
                   </div>
                   <div className="pt-1">
                     <div className="text-text-muted text-xs tracking-wide mb-1">BASED IN</div>
-                    <div>Mudgeeraba, Gold Coast Hinterland<br />Queensland, Australia</div>
+                    <div>Gold Coast and Surrounds<br />Queensland, Australia</div>
                   </div>
                 </div>
               </div>

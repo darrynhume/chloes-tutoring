@@ -4,23 +4,23 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Chloe's Tutoring | Personalised Primary Tutoring in Mudgeeraba",
-  description: "Qualified primary school teacher offering personalised 1-on-1 and small-group tutoring for Prep to Year 6 in Mudgeeraba and the Gold Coast hinterland. Build confidence, master fundamentals, and love learning with tailored support aligned to the Queensland Curriculum.",
+  title: "Chloe's Tutoring | Personalised Primary Tutoring on the Gold Coast",
+  description: "Qualified primary school teacher offering personalised 1-on-1 and small-group tutoring for Prep to Year 6 on the Gold Coast and surrounds. Build confidence, master fundamentals, and love learning with tailored support aligned to the Queensland Curriculum.",
   keywords: [
-    "primary tutoring Mudgeeraba",
+    "primary tutoring Gold Coast",
     "Gold Coast tutor",
     "Prep to Year 6 tutor",
     "private tutor Queensland",
     "NAPLAN preparation Gold Coast",
-    "literacy numeracy support Mudgeeraba",
+    "literacy numeracy support Gold Coast",
     "primary school teacher tutor",
     "personalised tutoring SEQ",
-    "homework help Gold Coast hinterland",
+    "homework help Gold Coast",
   ],
   authors: [{ name: "Chloe" }],
   openGraph: {
-    title: "Chloe's Tutoring | Personalised Primary Tutoring in Mudgeeraba",
-    description: "Qualified primary teacher helping local children in Prep–Year 6 build confidence and succeed. In-person in Mudgeeraba & surrounds, plus online options.",
+    title: "Chloe's Tutoring | Personalised Primary Tutoring on the Gold Coast",
+    description: "Qualified primary teacher helping local children in Prep–Year 6 build confidence and succeed. In-person on the Gold Coast and surrounds, plus online options.",
     images: [{ url: "/images/hero.jpg" }],
     locale: "en_AU",
     siteName: "Chloe's Tutoring",

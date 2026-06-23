@@ -1,6 +1,6 @@
 # Chloe's Tutoring — Professional Website
 
-A clean, warm, trustworthy website for Chloe, a qualified primary school teacher offering personalised tutoring (Prep–Year 6) in Mudgeeraba, Gold Coast hinterland, Queensland.
+A clean, warm, trustworthy website for Chloe, a qualified primary school teacher offering personalised tutoring (Prep–Year 6) on the Gold Coast and surrounds, Queensland.
 
 Built with Next.js 15 (App Router), TypeScript, and Tailwind CSS.
 
@@ -16,7 +16,7 @@ Built with Next.js 15 (App Router), TypeScript, and Tailwind CSS.
 - 7 services with icons
 - Why Families Choose Chloe (5 reasons)
 - Testimonials (placeholder — easy to swap)
-- Location & Availability (Mudgeeraba + surrounds + online)
+- Location & Availability (Gold Coast and surrounds + online)
 - Contact form + direct details + calendar placeholder
 
 ## Getting Started
