@@ -38,15 +38,13 @@ export default function Footer() {
           <div className="space-y-3 text-white/80">
             <div>
               <div className="font-medium text-white">Phone</div>
-              <a href="tel:0400123456" className="hover:text-white">0400 123 456</a>
-              {/* TODO: Replace with your real phone number before launch */}
+              <a href="tel:0417783386" className="hover:text-white">0417 783 386</a>
             </div>
             <div>
               <div className="font-medium text-white">Email</div>
-              <a href="mailto:hello@chloestutoring.com.au" className="hover:text-white break-all">
-                hello@chloestutoring.com.au
+              <a href="mailto:chloe.rahurahu96@gmail.com" className="hover:text-white break-all">
+                chloe.rahurahu96@gmail.com
               </a>
-              {/* TODO: Replace with your real email before launch */}
             </div>
             <div>
               <div className="font-medium text-white">Location</div>
@@ -58,7 +56,6 @@ export default function Footer() {
 
       <div className="mt-14 pt-6 border-t border-white/20 text-center text-xs text-white/60 max-w-6xl mx-auto px-6">
         © {currentYear} Chloe&apos;s Tutoring. All rights reserved. • Mudgeeraba, SEQ Queensland
-        {/* TODO: Add real ABN if desired */}
       </div>
     </footer>
   );

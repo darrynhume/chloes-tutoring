@@ -32,7 +32,7 @@ export default function Navbar() {
           <span className="font-semibold text-2xl tracking-tight text-sage-dark">
             Chloe&apos;s Tutoring
           </span>
-          {/* TODO: Update to full name e.g. "Chloe Lee Rahurahu-Hume Tutoring" if desired */}
+
         </a>
 
         {/* Desktop Navigation */}

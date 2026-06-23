@@ -327,15 +327,13 @@ export default function ChloeTutoring() {
                 <div className="space-y-4 text-[15px]">
                   <div>
                     <div className="text-text-muted text-xs tracking-wide">PHONE</div>
-                    <a href="tel:0400123456" className="font-medium text-lg hover:text-sage-dark">0400 123 456</a>
-                    {/* TODO: Update to real phone */}
+                    <a href="tel:0417783386" className="font-medium text-lg hover:text-sage-dark">0417 783 386</a>
                   </div>
                   <div>
                     <div className="text-text-muted text-xs tracking-wide">EMAIL</div>
-                    <a href="mailto:hello@chloestutoring.com.au" className="font-medium hover:text-sage-dark break-all">
-                      hello@chloestutoring.com.au
+                    <a href="mailto:chloe.rahurahu96@gmail.com" className="font-medium hover:text-sage-dark break-all">
+                      chloe.rahurahu96@gmail.com
                     </a>
-                    {/* TODO: Update to real email */}
                   </div>
                   <div className="pt-1">
                     <div className="text-text-muted text-xs tracking-wide mb-1">BASED IN</div>
