@@ -138,7 +138,7 @@ export default function ContactForm() {
           {isSubmitting ? "Sending..." : "Send Message & Request Consultation"}
         </Button>
         <p className="mt-4 text-xs text-text-muted">
-          This form is currently a working demo. Chloe will reply personally. We respect your privacy.
+          Chloe will reply personally within 24 hours. We respect your privacy.
         </p>
       </div>
     </form>
