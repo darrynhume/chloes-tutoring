@@ -8,6 +8,7 @@ interface ButtonProps {
   variant?: "primary" | "secondary" | "ghost";
   className?: string;
   type?: "button" | "submit";
+  disabled?: boolean;
 }
 
 export default function Button({
@@ -17,6 +18,7 @@ export default function Button({
   variant = "primary",
   className = "",
   type = "button",
+  disabled = false,
 }: ButtonProps) {
   const base = "btn";
   const styles = {
@@ -25,7 +27,8 @@ export default function Button({
     ghost: "btn-ghost",
   };
 
-  const classes = `${base} ${styles[variant]} ${className}`;
+  const disabledClass = disabled ? "opacity-50 cursor-not-allowed" : "";
+  const classes = `${base} ${styles[variant]} ${className} ${disabledClass}`.trim();
 
   if (href) {
     return (
@@ -36,7 +39,7 @@ export default function Button({
   }
 
   return (
-    <button type={type} onClick={onClick} className={classes}>
+    <button type={type} onClick={onClick} className={classes} disabled={disabled}>
       {children}
     </button>
   );
