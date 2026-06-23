@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     locale: "en_AU",
     siteName: "Chloe's Tutoring",
   },
-  metadataBase: new URL('https://chloestutoring.vercel.app'), // Update this to your final domain after deployment
+  metadataBase: new URL('https://chloestutoring.vercel.app'), // TODO: After deploying to Vercel, update this to your actual deployment URL (e.g. https://chloes-tutoring-abc123.vercel.app)
   alternates: {
-    canonical: 'https://chloestutoring.vercel.app', // Update this after you get a custom domain
+    canonical: 'https://chloestutoring.vercel.app', // TODO: Update after deployment / custom domain
   },
 };
 
