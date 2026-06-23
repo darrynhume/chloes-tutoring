@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     locale: "en_AU",
     siteName: "Chloe's Tutoring",
   },
-  metadataBase: new URL('https://chloes-tutoring-ike5k3aek-fun11.vercel.app'),
+  metadataBase: new URL('https://chloes-tutoring.vercel.app'),
   alternates: {
-    canonical: 'https://chloes-tutoring-ike5k3aek-fun11.vercel.app',
+    canonical: 'https://chloes-tutoring.vercel.app',
   },
 };
 
