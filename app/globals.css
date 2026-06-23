@@ -1,0 +1,214 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: #3D3A35;
+  background-color: #F9F5F0;
+}
+
+/* Professional warm typography */
+h1, h2, h3, h4 {
+  font-weight: 600;
+  color: #3E5F34;
+  letter-spacing: -0.015em;
+}
+
+h1 {
+  font-size: 2.75rem;
+  line-height: 1.05;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  line-height: 1.15;
+}
+
+h3 {
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+/* Button styles - warm & trustworthy */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.75rem;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.btn-primary {
+  background-color: #5C8A4D;
+  color: white;
+  box-shadow: 0 4px 14px -2px rgb(92 138 77 / 0.35);
+}
+
+.btn-primary:hover {
+  background-color: #3E5F34;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px -3px rgb(92 138 77 / 0.4);
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #3E5F34;
+  border: 1.5px solid #A3C39A;
+}
+
+.btn-secondary:hover {
+  background-color: #F0E9DF;
+  border-color: #5C8A4D;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: #3E5F34;
+  border: 1.5px solid #A3C39A;
+}
+
+.btn-ghost:hover {
+  background-color: #F0E9DF;
+}
+
+/* Card styles */
+.card {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 30px -5px rgb(0 0 0 / 0.08), 0 4px 12px -3px rgb(0 0 0 / 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px -8px rgb(0 0 0 / 0.1);
+}
+
+/* Service icon wrapper */
+.service-icon {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  background-color: #A3C39A;
+  color: #3E5F34;
+}
+
+/* Testimonial card */
+.testimonial {
+  background-color: #F0E9DF;
+  border-left: 4px solid #5C8A4D;
+}
+
+/* Form styles */
+.form-input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 1.5px solid #EDE5D9;
+  border-radius: 0.625rem;
+  background-color: white;
+  font-size: 1rem;
+  color: #3D3A35;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #5C8A4D;
+  box-shadow: 0 0 0 3px rgb(92 138 77 / 0.12);
+}
+
+.form-input::placeholder {
+  color: #9A9285;
+}
+
+label {
+  font-size: 0.925rem;
+  font-weight: 600;
+  color: #3E5F34;
+  margin-bottom: 0.375rem;
+  display: block;
+}
+
+/* Navbar */
+.nav-link {
+  position: relative;
+  color: #3D3A35;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #5C8A4D;
+}
+
+.nav-link.active {
+  color: #5C8A4D;
+}
+
+/* Mobile menu */
+.mobile-menu {
+  animation: slideDown 0.2s ease forwards;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Section spacing */
+.section {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem;
+}
+
+@media (min-width: 768px) {
+  .section {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+  }
+}
+
+/* Footer */
+footer a {
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: #5C8A4D;
+}
+
+/* Accessibility & focus */
+:focus-visible {
+  outline: 2px solid #5C8A4D;
+  outline-offset: 2px;
+}
+
+/* Subtle divider */
+.divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, #EDE5D9, transparent);
+}
