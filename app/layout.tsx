@@ -25,9 +25,9 @@ export const metadata: Metadata = {
     locale: "en_AU",
     siteName: "Chloe's Tutoring",
   },
+  metadataBase: new URL('https://chloestutoring.example.com'), // TODO: Update to your real deployed domain (e.g. https://chloestutoring.vercel.app or https://chloestutoring.com.au)
   alternates: {
-    // TODO: Update this to your real domain once deployed (e.g. https://chloestutoring.com.au or your Vercel URL)
-    canonical: "https://chloestutoring.example.com",
+    canonical: "https://chloestutoring.example.com", // TODO: Update to your real domain
   },
 };
 
